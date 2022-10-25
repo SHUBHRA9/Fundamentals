@@ -1,0 +1,49 @@
+Q1 : What is Java?
+Ans : Java is the high-level, object-oriented, robust, secure programming language, platform-independent, high performance, Multithreaded, and portable programming language. It was 
+developed by James Gosling in June 1991. It can also be known as the platform as it provides its own JRE and API.
+
+Q2  : List the features of Java Programming language.
+Ans : There are the following features in Java Programming Language :-
+      * Simple
+      * Object Oriented Object
+      * Platform Independent
+      * Secured
+      * Multithreaded
+      * High Performance
+      * Dynamic
+      
+Q3  : What do you understand by Java virtual machine?
+Ans : Java Virtual Machine is a virtual machine that enables the computer to run the Java program. JVM acts like a run-time engine which calls the main method present in the Java code. JVM is the specification which must be implemented in the computer system. 
+      The Java code is compiled by JVM to be a Bytecode which is machine independent and close to the native code.
+      
+Q4  : What are the main differences between the Java platform and other platforms?
+Ans : There are the following differences between the Java platform and other platforms.
+      * Java is the software-based platform whereas other platforms may be the hardware platforms or software-based platforms.
+      * Java is executed on the top of other hardware platforms whereas other platforms can only have the hardware components.
+      
+Q5  : What if I write static public void instead of public static void?
+Ans : The program compiles and runs correctly because the order of specifiers doesn't matter in Java.
+
+Q6  : What is the default value of the local variables?
+Ans : The local variables are not initialized to any default value, neither primitives nor object references.
+
+Q7  :  What are the various access specifiers in Java?
+Ans : In Java, access specifiers are the keywords which are used to define the access scope of the method, class, or a variable. In Java, there are four access specifiers given below.
+
+      * Public - The classes, methods, or variables which are defined as public, can be accessed by any class or method.
+      * Protected - Protected can be accessed by the class of the same package, or by the sub-class of this class, or within the same class.
+      * Default - Default are accessible within the package only. By default, all the classes, methods, and variables are of default scope.
+      * Private - The private class, methods, or variables defined as private can be accessed within the class only.
+
+Q8  : What is the purpose of static methods and variables?
+Ans : The methods or variables defined as static are shared among all the objects of the class. The static is the part of the class and not of the object. The static variables are stored in the class area, and we do not need to create 
+      the object to access such variables. Therefore, static is used in the case, where we need to define variables or methods which are common to all the objects of the class.
+      For example, In the class simulating the collection of the students in a college, the name of the college is the common attribute to all the students. Therefore, the college name will be defined as static.
+
+Q9  : What gives Java its 'write once and run anywhere' nature?
+Ans : The bytecode. Java compiler converts the Java programs into the class file (Byte Code) which is the intermediate language between source code and machine code. 
+      This bytecode is not platform specific and can be executed on any computer.
+
+Q10 : What is JIT compiler?
+Ans : Just-In-Time(JIT) compiler: It is used to improve the performance. JIT compiles parts of the bytecode that have similar functionality at the same time, and hence reduces the amount of time needed for compilation. 
+      Here the term “compiler” refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.
