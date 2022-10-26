@@ -1,0 +1,56 @@
+Q1  : Why OOP is so popular?
+Ans : OOPs, programming paradigm is considered as a better style of programming. Not only it helps in writing a complex piece of code easily, but it also allows users to handle and maintain them easily as well. Not only that, 
+the main pillar of OOPs - Data Abstraction, Encapsulation, Inheritance, and Polymorphism, makes it easy for programmers to solve complex scenarios. As a result of these, OOPs is so popular.
+
+Q2  : What do you understand by pure object-oriented language? Why Java is not a pure object-oriented programming language?
+Ans : The programming language is called pure object-oriented language that treats everything inside the program as an object. The primitive types are not supported by the pure OOPs language. 
+There are some other features that must satisfy by a pure object-oriented language:
+  * Encapsulation
+  * Inheritance
+  * Polymorphism
+  * Abstraction
+All predefined types are objects
+All user-defined types are objects
+All operations performed on objects must be only through methods exposed to the objects.
+Java is not a pure object-oriented programming language because pre-defined data types in Java are not treated as objects. Hence, it is not an object-oriented language.
+
+Q3  : What do you understand by class and object?
+Ans :  * Class: A class is a blueprint or template of an object. It is a user-defined data type. Inside a class, we define variables, constants, member functions, and other functionality. 
+         It does not consume memory at run time. Note that classes are not considered as a data structure. It is a logical entity. It is the best example of data binding.
+
+       * Object: An object is a real-world entity that has attributes, behavior, and properties. It is referred to as an instance of the class. 
+         It contains member functions, variables that we have defined in the class. It occupies space in the memory. Different objects have different states or attributes, and behaviors.
+         
+Q4  : What is the concept of access specifiers when should we use these?
+Ans : In OOPs language, access specifiers are reserved keyword that is used to set the accessibility of the classes, methods and other members of the class. It is also known as access modifiers. It includes public, private, and protected. There is some other access specifier that is language-specific. 
+Such as Java has another access specifier default. These access specifiers play a vital role in achieving one of the major functions of OOP, i.e. encapsulation. The following table depicts the accessibility.
+
+Q5  :  What are the characteristics of an abstract class?
+Ans : An abstract class is a class that is declared as abstract. It cannot be instantiated and is always used as a base class. The characteristics of an abstract class are as follows:
+
+        Instantiation of an abstract class is not allowed. It must be inherited.
+        An abstract class can have both abstract and non-abstract methods.
+        An abstract class must have at least one abstract method.
+        You must declare at least one abstract method in the abstract class.
+        It is always public.
+        It is declared using the abstract,
+ 
+Q6  : Is it possible for a class to inherit the constructor of its base class?
+Ans : No, a class cannot inherit the constructor of its base class.
+
+Q7  :  What is the difference between a base class and a superclass?
+Ans : The base class is the root class- the most generalized class. At the same time, the superclass is the immediate parent class from which the other class inherits.
+
+Q8  : What are the levels of data abstraction?
+Ans : There are three levels of data abstraction:
+
+        * Physical Level: It is the lowest level of data abstraction. It shows how the data is actually stored in memory.
+        * Logical Level: It includes the information that is actually stored in the database in the form of tables. It also stores the relationship among the data entities in relatively simple structures. 
+                         At this level, the information available to the user at the view level is unknown.
+        * View Level: It is the highest level of data abstraction. The actual database is visible to the user. It exists to ease the availability of the database by an individual user.
+
+Q9  : Is it possible to overload a constructor?
+Ans : Yes, the constructors can be overloaded by changing the number of arguments accepted by the constructor or by changing the data type of the parameters.
+
+Q10 : Can we overload the main() method in Java also give an example?
+Ans : Yes, we can also overload the main() method in Java. Any number of main() methods can be defined in the class, but the method signature must be different. 
