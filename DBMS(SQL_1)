@@ -1,0 +1,30 @@
+Q1.	  What is SQL?
+Ans.	SQL stands for the Structured Query Language. It is the standard language used to maintain the relational database and perform many different data manipulation operations on the data. 
+
+Q2.  	What are the usages of SQL?
+Ans.	SQL is responsible for maintaining the relational data and the data structures present in the database. 
+          To execute queries against a database
+          To retrieve data from a database
+          To inserts records in a database
+          To updates records in a database
+          To delete records from a database
+          To create new databases
+          To create new tables in a database
+          To create views in a database
+          To perform complex operations on the database.
+          
+Q3.	  What is a primary key?
+Ans.	A primary key is a field or the combination of fields that uniquely identify each record in the table. It is one of a special kind of unique key. If the column contains a primary key, 
+it cannot be null or empty. A table can have duplicate columns, but it cannot have more than one primary key. It always stores unique values into a column.
+
+Q4. 	What is a unique key?
+Ans.	A unique key is a single or combination of fields that ensure all values stores in the column will be unique. It means a column cannot stores duplicate values. 
+This key provides uniqueness for the column or set of column
+
+Q5.	  What is a foreign key?
+Ans.	The foreign key is used to link one or more tables together. It is also known as the referencing key. A foreign key is specified as a key that is related to the primary key of another table. 
+It means a foreign key field in one table refers to the primary key field of the other table. It identifies each row of another table uniquely that maintains the referential integrity. The primary key-foreign key relationship is a very crucial relationship as it maintains the ACID properties of the database sometimes.
+
+Q6.   What is RDBMS?
+Ans.	RDBMS stands for Relational Database Management System. It is a database management system based on a relational model. It facilitates you to manipulate the data stored in the tables by using relational operators. RDBMS stores the data into the collection of tables and links those tables using the relational operators easily whenever required. Examples of relational database management systems are Microsoft Access, MySQL, SQL Server, Oracle database, etc.
+
