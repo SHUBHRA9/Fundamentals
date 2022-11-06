@@ -1,0 +1,52 @@
+Q1  : On which memory arrays are created in Java?
+Ans : Arrays are created on dynamic memory by JVM. There is no question of static memory in Java everything (variable, array, object, etc.) is created on dynamic memory only.
+
+Q2  : What are the types of an array?
+Ans : Arrays are generally categorized into two parts as described below:
+             * Single Dimensional Array
+             * Multi-Dimensional Array (2D and 3D arrays)
+Q3  : Is it possible to declare array size as negative?
+Ans : No, it is not possible to declare array size as negative. Still, if we declare the negative size, there will be no compile-time error. But we get the NegativeArraySizeException at run-time.
+
+Q4  : What is the default value of the array?
+Ans : When we create a new array, it always initialized with the default values. The default values of the array are:
+          * If an array is of byte, short, int, and long type, the default value is 0.
+          * If an array is of float and double type, the default value is 0.
+          * If an array is of Boolean type, the default value is false.
+          * If an array is of an Object type, the default value is null.
+ 
+Q5  : What do you understand by the jagged array?
+Ans : A jagged array is a multidimensional array in which member arrays are of different sizes. For example, int array[][]=new int[3][]. 
+      The statement creates a two-dimensional jagged array.
+      
+Q6  :  How many ways to find the duplicate elements in an array?
+Ans : There are the following five ways to find the duplicate array in Java.
+            * Brute Force Method: In this method, we compare each element of an array with the other elements. If any of the two elements are found equal, we consider them as duplicates. 
+                                  The method has time complexity O(n2).
+            * Using HashSet: We can also use the HashSet class to find the duplicate elements in an array. To find the duplicate elements, iterate over the array elements and insert them 
+                             into HashSet by invoking add() method of the HashSet class. If the method returns false it means that the element is already present in the Set. It takes O(n) time to find the duplicate elements.
+            * Using HashMap: We know that HashMap uses key-value pair to store an element. When we use HashMap to find the duplicate array, we store the elements of the array as keys and the 
+                             frequency of the elements as values. If the value of any key is greater than 1, the key is a duplicate element. Its time and space complexity is O(n). Using this method, we can also find the number of occurrences of duplicate.
+
+Q7  : When ArrayIndexOutOfBoundsException occurs?
+Ans : The ArrayIndexOutOfBoundsException occurs when the program tries to access the index of an array. The exception also occurs when the index is higher than the size of the array or the index is negative.
+
+Q8  : How to retrieve the class name of an array?
+Ans : An array is an object. From the object we can retrieve the class name. We invoke the getClass() and getName() method that retrieves the class name of an array. The getClass() is the method of the Object class that returns the runtime class of the object. 
+      While the getName() is the method of the Class class that returns the name of the class/array class.
+ 
+Q9  : What is left-rotation in an array?
+Ans : Left-rotation is an operation that can be performed over an array. In this operation, each element of an array shifts 1 unit to the left. Therefore, the lowest index's value moves to the highest index. We can perform any number of rotations over an array. 
+      It is also known as a circular array. Let's perform left-rotation twice over an array [7, 8, 9, 2, 5, 6].
+      After one rotation, we get the array [8, 9, 2, 5, 6, 7], after the second rotation, we get [9, 2, 5, 6, 8].
+
+Q10 : What are the advantages and disadvantages of an array?
+Ans : Advantages of Array :
+            We can store multiple elements of the same type under a single variable.
+            We can implement other data structures such as Stack, Queue, Tree, etc. with the help of an array.
+            We can fetch data elements using the index at run time.
+      Disadvantages of Array : 
+            Before using an array, it is mandatory to declare its size.
+            It is a static structure, so we cannot increase or decreases memory allocation.
+            Insertion and deletion operations are difficult because elements stored at the contiguous memory location. It also increases the cost.
+            Allocate more memory than required is the wastage of memory.
