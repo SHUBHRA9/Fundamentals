@@ -1,0 +1,44 @@
+1. What is Inheritance in Java?
+Ans: The technique of creating a new class by using an existing class functionality is called inheritance in Java. In other words, inheritance is a process where a child class acquires 
+     all the properties and behaviors of the parent class.
+     
+2. Why do we need to use inheritance Or, What is the purpose of using inheritance?
+Ans: Inheritance is one of the main pillars of OOPs concept. Some objects share certain properties and behaviors. By using inheritance, a child class acquires all properties and behaviors of parent class.
+     There are the following reasons to use inheritance in java.
+                We can reuse the code from the base class.
+                Using inheritance, we can increase features of class or method by overriding.
+                Inheritance is used to use the existing features of class.
+                It is used to achieve runtime polymorphism i.e method overriding.
+                
+3. What is Is-A relationship in Java?
+Ans: Is-A relationship represents Inheritance. It is implemented using the “extends” keyword. It is used for code reusability.
+
+4. What is super class and subclass?
+Ans: A class from where a subclass inherits features is called superclass. It is also called base class or parent class.
+     A class that inherits all the members (fields, method, and nested classes) from other class is called subclass. It is also called a derived class, child class, or extended class.
+     
+5. How is Inheritance implemented/achieved in Java?
+Ans: Inheritance can be implemented or achieved by using two keywords:
+            extends: extends is a keyword that is used for developing the inheritance between two classes and two interfaces.
+            implements: implements keyword is used for developing the inheritance between a class and interface. 
+            
+6. What are the types of inheritance in Java?
+Ans: The various types of inheritance are as follows:
+            a. Single inheritance
+            b. Multi-level inheritance
+            c. Hierarchical inheritance
+            d. Multiple inheritance
+            e. Hybrid inheritance
+
+7. Why multiple inheritance is not supported in java through class?
+Ans: Multiple inheritance means that one class extends two superclasses or base classes but in Java, one class cannot extend more than one class simultaneously. At most, one class can extend only one class.
+     Therefore, to reduce ambiguity, complexity, and confusion, Java does not support multiple inheritance through classes.
+     
+8. How will you restrict a member of a class from inheriting its subclass?
+Ans: We can restrict members of a class by declaring them private because the private members of superclass are not available to the subclass directly. They are only available in their own class.
+
+9. What happens if both superclass and subclass have a field with the same name?
+Ans: Only subclass members are accessible if an object of subclass is instantiated.
+
+10. How does Multiple inheritance implement in Java?
+Ans: Multiple inheritance can be implemented in Java by using interfaces. A class cannot extend more than one class but a class can implement more than one interface.
