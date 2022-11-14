@@ -1,0 +1,49 @@
+Q1.  How can you handle exceptions in Java?
+Ans: Exception handling can be performed using:
+            Try: the set of statements or code which requires monitoring for an exception is kept under this block.
+            Catch: this block catches all exceptions that were trapped in the try block.
+            Finally: this block is always performed irrespective of the catching of exceptions in the try or catch block.
+
+Q2.  What is the difference between exception and error in Java?
+Ans: Errors typically happen while an application is running. For instance, Out of Memory Error occurs in case the JVM runs out of memory. On the other hand, exceptions are mainly caused by the application. For instance, Null Pointer Exception happens when an app tries to get through a null object.
+
+Q3.  Why do we need exception handling in Java?
+Ans: If there is no try and catch block while an exception occurs, the program will terminate. Exception handling ensures the smooth running of a program without program termination.
+
+Q4.  Name the different types of exceptions in Java
+Ans: Based on handling by JVM, there are typically two types of exceptions in Java:
+            Checked: Occur during the compilation. Here, the compiler checks whether the exception is handled and throws an error accordingly.
+            Unchecked: Occur during program execution. These are not detectable during the compilation process.
+            In addition, there are two other exceptions based on their definition, namely built-in expectation and user-defined expectations.
+
+Q5.  Can we just use try instead of finally and catch blocks?
+Ans: No, doing so will show a compilation error. Catch or finally block must always accompany try block. We can remove either finally block or catch block, but never both.
+
+Q6.  Which exception may be thrown if the given code is executed?
+              public class Test 
+              {
+              public static void main(String[] args) 
+              {
+              int[ ] list = new int[4];
+              System.out.println(list[6]);
+                }
+              }
+Ans: ArrayIndexOutOfBoundsException will be thrown if the above code is executed.
+
+Q7.  Which exception may be thrown if the given code is executed?
+            public class Test 
+            {
+            public static void main(String[] args) 
+            {
+            int a = 20;
+            int b = 30;
+            int c = 10;
+            int x = (a * b)/(a - b + c);
+            System.out.println("Result: " +x);
+              }
+            }
+Ans: ArithmeticException will be thrown if code is executed.
+
+Q8. Can we throw an exception manually/explicitly?
+Ans: Yes, using throw keyword we can throw an exception manually.
+          Syntax: throw InstanceOfThrowableType;
