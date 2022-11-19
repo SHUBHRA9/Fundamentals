@@ -1,0 +1,55 @@
+1) What is a gateway? Is there any difference between a gateway and router?
+    A node that is connected to two or more networks is commonly known as a gateway. It is also known as a router. It is used to forward messages from one network to another. Both the gateway and router regulate the traffic in the network.
+    Differences between gateway and router:
+        A router sends the data between two similar networks while gateway sends the data between two dissimilar networks.
+
+
+2) What is DNS?
+    DNS is an acronym stands for Domain Name System.
+    DNS was introduced by Paul Mockapetris and Jon Postel in 1983.
+    It is a naming system for all the resources over the internet which includes physical nodes and applications. It is used to locate to resource easily over a network.
+    DNS is an internet which maps the domain names to their associated IP addresses.
+    Without DNS, users must know the IP address of the web page that you wanted to access.
+    Working of DNS:
+        If you want to visit the website of "javaTpoint", then the user will type "https://www.javatpoint.com" into the address bar of the web browser. Once the domain name is entered, then the domain name system will translate the domain name into the 
+        IP address which can be easily interpreted by the computer. Using the IP address, the computer can locate the web page requested by the user.
+
+3) What is DNS forwarder?
+      A forwarder is used with DNS server when it receives DNS queries that cannot be resolved quickly. So it forwards those requests to external DNS servers for resolution.
+      A DNS server which is configured as a forwarder will behave differently than the DNS server which is not configured as a forwarder.
+      Following are the ways that the DNS server behaves when it is configured as a forwarder:
+            When the DNS server receives the query, then it resolves the query by using a cache.
+            If the DNS server is not able to resolve the query, then it forwards the query to another DNS server.
+            If the forwarder is not available, then it will try to resolve the query by using root hint.
+
+4) What is NIC?
+    NIC stands for Network Interface Card. It is a peripheral card attached to the PC to connect to a network. Every NIC has its own MAC address that identifies the PC on the network.
+    It provides a wireless connection to a local area network.
+    NICs were mainly used in desktop computers.
+    
+5) What is the meaning of 10Base-T?
+    It is used to specify data transfer rate. In 10Base-T, 10 specify the data transfer rate, i.e., 10Mbps. The word Base specifies the baseband as opposed to broadband. T specifies the type of the cable which is a twisted pair.
+
+6) What is NOS in computer networking?
+    NOS stands for Network Operating System. It is specialized software which is used to provide network connectivity to a computer to make communication possible with other computers and connected devices.
+    NOS is the software which allows the device to communicate, share files with other devices.
+    The first network operating system was Novel NetWare released in 1983. Some other examples of NOS are Windows 2000, Windows XP, Linux, etc.
+
+7) What are the different types of networks?
+    Networks can be divided on the basis of area of distribution. For example:
+        PAN (Personal Area Network): Its range limit is up to 10 meters. It is created for personal use. Generally, personal devices are connected to this network. For example computers, telephones, fax, printers, etc.
+        LAN (Local Area Network): It is used for a small geographical location like office, hospital, school, etc.
+        HAN (House Area Network): It is actually a LAN that is used within a house and used to connect homely devices like personal computers, phones, printers, etc.
+        CAN (Campus Area Network): It is a connection of devices within a campus area which links to other departments of the organization within the same campus.
+        MAN (Metropolitan Area Network): It is used to connect the devices which span to large cities like metropolitan cities over a wide geographical area.
+        WAN (Wide Area Network): It is used over a wide geographical location that may range to connect cities and countries.
+        GAN (Global Area Network): It uses satellites to connect devices over global are.
+
+8) What is POP3?
+    POP3 stands for Post Office Protocol version3. POP is responsible for accessing the mail service on a client machine. POP3 works on two models such as Delete mode and Keep mode.
+
+9) What do you understand by MAC address?
+    MAC stands for Media Access Control. It is the address of the device at the Media Access Control Layer of Network Architecture. It is a unique address means no two devices can have same MAC addresses.
+
+10) What is IP address?
+    IP address is a unique 32 bit software address of a computer in a network system.
