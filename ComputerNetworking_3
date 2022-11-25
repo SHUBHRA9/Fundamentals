@@ -1,0 +1,40 @@
+1) What is private IP address?
+Ans : There are three ranges of IP addresses that have been reserved for IP addresses. They are not valid for use on the internet. If you want to access internet on these private IPs, you must have to use proxy server or NAT server.
+
+2) What is public IP address?
+Ans : A public IP address is an address taken by the Internet Service Provider which facilitates you to communication on the internet.
+
+3) What is APIPA?
+Ans : APIPA is an acronym stands for Automatic Private IP Addressing. This feature is generally found in Microsoft operating system.
+
+4) What is the full form of ADS?
+Ans : ADS stands for Active Directory Structure.
+      ADS is a microsoft technology used to manage the computers and other devices.
+      ADS allows the network administrators to manage the domains, users and objects within the network.
+      ADS consists of three main tiers:
+          Domain: Users that use the same database will be grouped into a single domain.
+          Tree: Multiple domains can be grouped into a single tree.
+          Forest: Multiple trees can be grouped into a single forest.
+          
+5) What is RAID?
+Ans : RAID is a method to provide Fault Tolerance by using multiple Hard Disc Drives.
+
+6) What is anonymous FTP?
+Ans : Anonymous FTP is used to grant users access to files in public servers. Users which are allowed access to data in these servers do not need to identify themselves, but instead log in as an anonymous guest.
+
+7) What is protocol?
+Ans : A protocol is a set of rules which is used to govern all the aspects of information communication.
+
+8) What are the main elements of a protocol?
+Ans : The main elements of a protocol are:
+        Syntax: It specifies the structure or format of the data. It also specifies the order in which they are presented.
+        Semantics: It specifies the meaning of each section of bits.
+        Timing: Timing specifies two characteristics: When data should be sent and how fast it can be sent.
+
+9) What is the Domain Name System?
+Ans : There are two types of client/server programs. 
+        First is directly used by the users and the second supports application programs.
+        The Domain Name System is the second type supporting program that is used by other programs such as to find the IP address of an e-mail recipient.
+
+10) What is link?
+Ans : A link is connectivity between two devices which includes the cables and protocols used in order to make communication between devices.
