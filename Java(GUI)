@@ -1,0 +1,23 @@
+Q1. What is the difference between Swing and AWT components?
+Ans : AWT components are heavy-weight, whereas Swing components are lightweight. Hence Swing works faster than AWT. Heavy weight components depend on the local windowing toolkit. For example, java.awt.Button is a heavy weight component. Pluggable look and feel possible using java Swing. Also, we can switch from one look and feel to another at runtime in swing which is not possible in AWT.
+
+Q2.Name the containers which use Border Layout as their default layout?
+Ans : Window, Frame and Dialog classes.
+
+Q3. Name Container classes.
+Ans : Window, Frame, Dialog, FileDialog, Panel, Applet, or ScrollPane
+
+Q4. How can a GUI component handle its own events?
+Ans : A component can handle its own events by implementing the required event-listener interface and adding itself as its own event listener.
+
+Q5. What is the difference between the paint() and repaint() methods?
+Ans : The paint() method supports painting via a Graphics object. The repaint() method is used to cause paint() to be invoked by the AWT painting thread.
+
+Q6. Which package has light weight components?
+Ans : javax.Swing package contains light weight components. All components in Swing, except JApplet, JDialog, JFrame and JWindow are lightweight components.
+
+Q7. What are peerless components?
+Ans : The peerless components are called light weight components.
+
+Q8. What is a Container in a GUI?
+Ans : A Container contains and arranges other components (including other containers) through the use of layout managers, which use specific layout policies to determine where components should go as a function of the size of the container.
