@@ -1,0 +1,33 @@
+1. What is memory management?
+Memory management is the process of allocating and deallocating memory in a computer program. This includes both the memory used by the program itself, as well as any memory used by external libraries or data structures. Proper memory management is essential to writing efficient and stable code.
+
+2. Why do we need to manage memory in programming languages like Java, C or Python?
+Memory management is important in any programming language in order to ensure that the program is using memory efficiently and not wasting any resources. In languages like Java and C, memory management is especially important because the programmer has to 
+explicitly allocate and deallocate memory for objects. This can be easy to forget to do, which can lead to memory leaks. In Python, memory management is handled automatically by the Python interpreter, but it is still important to be aware of how memory is being used by your program so that you can avoid any potential issues.
+
+3. What are some common types of objects that can be stored in a computer’s memory?
+Some common types of objects that can be stored in a computer’s memory include text, images, videos, and executable files.
+
+4. Can you explain what the heap and stack are? How does each work?
+The heap is a section of memory where data is stored that can be accessed by any part of the program. The stack is a section of memory where data is stored that can only be accessed by the part of the program that created it.
+
+5. Is it possible for all variables to live on the heap? If not, then why not?
+No, it is not possible for all variables to live on the heap. The stack is used for storing local variables and function call information, and it is not possible to store all variables on the heap because that would require too much memory.
+
+6. When dealing with strings, where do they get saved in memory – the heap or the stack?
+Strings are usually stored in the heap, which is where all of the program’s data is stored. The heap is where variables are stored that are not local to a specific function, and it is also where dynamic memory is allocated.
+
+7. What happens when a method returns an object reference? Where does this result get stored in memory?
+When a method returns an object reference, the result is stored in memory on the heap. The object reference itself is stored on the stack.
+
+8. Can you explain how garbage collection works?
+When an object is no longer being used by the program, the garbage collector will automatically free up the memory that was being used by that object. The garbage collector runs periodically, so it may not happen immediately when the object is no longer needed.
+
+9. What are some techniques used by compilers to optimize memory usage?
+Some techniques used by compilers to optimize memory usage are:
+      -Reuse of memory: This means that the compiler will try to reuse memory that has already been allocated for other purposes.
+      -Allocation of memory: This means that the compiler will try to allocate memory in such a way that it can be used for multiple purposes.
+      -Garbage collection: This means that the compiler will try to collect and reuse memory that is no longer needed.
+
+10. In practice, which data structure implementation provides better performance? A hash map or a binary tree?
+In practice, a hash map usually provides better performance than a binary tree. This is because a hash map can typically be implemented more efficiently, resulting in faster lookup times.
